@@ -1,0 +1,28 @@
+{
+  "name": "l7s-deal-intake",
+  "version": "1.0.0",
+  "description": "L7S Deal Intake System with Asana Integration",
+  "main": "api/asana/create-deal-project.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "asana": "^3.0.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "l7s",
+    "deal-intake",
+    "asana",
+    "crypto",
+    "compliance"
+  ],
+  "author": "L7S",
+  "license": "ISC"
+}
